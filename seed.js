@@ -5,36 +5,36 @@ const { Product, Order } = require('./models');
 // Using fast Unsplash stock images - Expanded list
 const PRODUCTS = [
     {
-      name: 'CYBER DIESEL JACKET',
-      price: 8500,
-      category: 'OUTERWEAR',
-      images: [
-          'https://images.unsplash.com/photo-1551028919-ac66c5f8b6b0?auto=format&fit=crop&q=80&w=800',
-          'https://images.unsplash.com/photo-1520975661595-dc998dd24d95?auto=format&fit=crop&q=80&w=800',
-      ],
-      description: 'Distressed Italian denim. 2003 Archive piece. Heavy weight.',
-      tags: ['archive', 'y2k', 'outerwear'],
-      size: 'L'
+        name: 'CYBER DIESEL JACKET',
+        price: 8500,
+        category: 'OUTERWEAR',
+        images: [
+            'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=800',
+            'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800',
+        ],
+        description: 'Distressed Italian denim. 2003 Archive piece. Heavy weight.',
+        tags: ['archive', 'y2k', 'outerwear'],
+        size: 'L'
     },
     {
-      name: 'MATRIX TRENCH',
-      price: 12000,
-      category: 'OUTERWEAR',
-      images: [
-          'https://images.unsplash.com/photo-1534349762913-96c87130f6bf?auto=format&fit=crop&q=80&w=800',
-          'https://images.unsplash.com/photo-1504194921103-f8b80cadd5e4?auto=format&fit=crop&q=80&w=800',
-      ],
-      description: 'Floor length leather coating. Waterproof. The One.',
-      tags: ['dark', 'matrix', 'leather'],
-      size: 'XL'
+        name: 'MATRIX TRENCH',
+        price: 12000,
+        category: 'OUTERWEAR',
+        images: [
+            'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=800',
+            'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800',
+        ],
+        description: 'Floor length leather coating. Waterproof. The One.',
+        tags: ['dark', 'matrix', 'leather'],
+        size: 'XL'
     },
     {
         name: 'ACID WASH CARGO',
         price: 4500,
         category: 'BOTTOMS',
         images: [
-            'https://images.unsplash.com/photo-1624378439575-d8aa19c84bfa?auto=format&fit=crop&q=80&w=800',
-            'https://images.unsplash.com/photo-1584370848010-d7cc6bc76e4f?auto=format&fit=crop&q=80&w=800'
+            'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=800',
+            'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800'
         ],
         description: 'Baggy fit multi-pocket cargo pants. Chemical wash treatment.',
         tags: ['streetwear', 'baggy', 'utilitarian'],
@@ -57,8 +57,8 @@ const PRODUCTS = [
         price: 15000,
         category: 'ACCESSORIES',
         images: [
-            'https://images.unsplash.com/photo-1599643478518-17488fbbcd75?auto=format&fit=crop&q=80&w=800',
-            'https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&q=80&w=800'
+            'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=800',
+            'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800'
         ],
         description: '.925 Silver chunky chain. Industrial aesthetic.',
         tags: ['jewelry', 'silver', 'chrome'],
@@ -105,8 +105,8 @@ const PRODUCTS = [
         price: 4000,
         category: 'TOPS',
         images: [
-            'https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?auto=format&fit=crop&q=80&w=800',
-            'https://images.unsplash.com/photo-1503341455253-b2e72333dbdb?auto=format&fit=crop&q=80&w=800'
+            'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=800',
+            'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800'
         ],
         description: 'Vintage 1999 tour t-shirt. Faded black. Boxy fit.',
         tags: ['vintage', 'band', 'tee'],
@@ -129,8 +129,8 @@ const PRODUCTS = [
         price: 6000,
         category: 'OUTERWEAR',
         images: [
-            'https://images.unsplash.com/photo-1506634572416-48cdfe530110?auto=format&fit=crop&q=80&w=800',
-            'https://images.unsplash.com/photo-1515347619252-60a6bf4fffce?auto=format&fit=crop&q=80&w=800'
+            'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=800',
+            'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800'
         ],
         description: 'Military surplus vest. Multi-pockets. Techwear staple.',
         tags: ['techwear', 'vest', 'military'],
@@ -141,8 +141,8 @@ const PRODUCTS = [
         price: 3500,
         category: 'ACCESSORIES',
         images: [
-            'https://images.unsplash.com/photo-1605100804763-eb2fc960239c?auto=format&fit=crop&q=80&w=800',
-            'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800'
+            'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=800',
+            'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800'
         ],
         description: 'Set of 3 stainless steel rings. Claw and skull motifs.',
         tags: ['jewelry', 'rings', 'accessories'],
@@ -154,7 +154,7 @@ const seedDB = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_URI);
         console.log('Connected to DB');
-        
+
         await Product.deleteMany({});
         await Order.deleteMany({});
         console.log('Cleared DB');
